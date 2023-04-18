@@ -1,0 +1,103 @@
+.getSignMain {
+  background-image: url("./../../../src/assets/images/hometop.png");
+  width: calc(100vw);
+  min-height: 1000px;
+  background-size: cover;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.nameInputs {
+  color: #161D39 !important;
+  width: 220px !important;
+  font-weight: 600 !important;
+  font-size: 26px !important;
+  line-height: 39px !important;
+}
+
+.line {
+  width: 100%;
+  background: #D3D3D3;
+  height: 1px;
+}
+
+.radioText {
+  color: #787878 !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+  letter-spacing: 0.06em !important;
+}
+
+.buttonGetSign {
+  text-transform: none !important;
+  background: #656AE5 !important;
+  padding: 15px !important;
+  color: #FCFCFC !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+  letter-spacing: 0.06em !important;
+
+}
+
+.buttonGetSign:hover {
+  text-transform: none !important;
+  background: #656AE5 !important;
+  padding: 15px !important;
+}
+.buttonGetSignB {
+  text-transform: none !important;
+  background: #656AE5 !important;
+  width: 207px !important;
+  height: 64px !important;
+  color: #FCFCFC !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 30px !important;
+  letter-spacing: 0.06em !important;
+
+}
+
+.buttonGetSignB:hover {
+  text-transform: none !important;
+  background: #656AE5 !important;
+}
+
+@media (max-width: 1200px) {
+  .getSignMain {
+    padding: 15px !important;
+  }
+  .getSignMainBlock {
+    margin-top: 10px !important;
+    padding-bottom: 40px !important;
+  }
+  .getSignTitle {
+    font-size: 36px !important;
+    line-height: 48px !important;
+    text-align: center !important;
+  }
+  .nameInputs {
+    font-size: 20px !important;
+    width: 180px !important;
+  }
+  .radioText {
+    font-size: 17px !important;
+  }
+  .formRadio {
+    margin-top: 10px !important;
+  }
+  .price {
+    font-size: 20px !important;
+  }
+  .buttonGetSign {
+    font-size: 16px !important;
+  }
+  .checkForm {
+    margin-top: 20px !important;
+  }
+  .getSignMain {
+    min-height: 900px !important;
+  }
+}

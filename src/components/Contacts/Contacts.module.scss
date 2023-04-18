@@ -1,0 +1,86 @@
+.contactsMain {
+  background-image: url("./../../../src/assets/images/hometop.png");
+  width: calc(100vw);
+  min-height: 1000px;
+  background-size: cover;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.contactBlock {
+  max-width: 1300px !important;
+  margin-top: 145px !important;
+  background: #FFFEFF !important;
+  box-shadow: 0px 1px 42px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 11px !important;
+  padding: 56px 65px 56px 110px;
+}
+
+.contactButton {
+  margin-top: 60px !important;
+  background: #656AE5 !important;
+  border-radius: 10px !important;
+  padding: 16px 0px !important;
+  color: white !important;
+  letter-spacing: 0.5px !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 22px !important;
+}
+
+.image {
+  width: 28px;
+  height: 28px;
+  margin-right: 16px;
+}
+
+.textInfo {
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  line-height: 20px !important;
+  letter-spacing: 0.02em !important;
+  text-decoration: none !important;
+  color: #000000 !important;
+}
+
+@media (max-width: 1200px) {
+  .contactInfoEmail {
+    margin-top: 20px !important;
+  }
+  .inputs {
+    margin-top: 30px !important;
+  }
+  .titleContact {
+    font-size: 38px !important;
+  }
+  .contactBlock {
+    padding: 20px!important;
+    padding-top: 40px !important;
+    margin-top: 40px !important;
+  }
+  .contactsMain {
+    padding: 10px !important;
+  }
+  .contactInfo {
+    margin-top: 30px !important;
+  }
+  .inputBlock {
+    height: auto !important;
+  }
+  .map {
+    margin-top: 20px !important;
+    width: 100% !important;
+    max-width: 1200px !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 490px) {
+  .contactInfo {
+    margin-top: 30px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+}

@@ -1,0 +1,9 @@
+.docMain {
+  background-image: url("./../../../src/assets/images/hometop.png");
+  width: calc(100vw);
+  min-height: 1000px;
+  background-size: cover;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}

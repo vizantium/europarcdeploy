@@ -1,0 +1,193 @@
+.homeTop {
+  background-image: url("./../../../src/assets/images/hometop.png");
+  width: calc(100vw);
+  max-height: 900px;
+  background-size: cover;
+}
+
+.homeBottom {
+  width: calc(100vw);
+  background-color: #091636;
+  color: #FCFCFC !important;
+  margin-bottom: 220px;
+  margin-top: 140px;
+}
+
+.buttonFirst {
+  width: 177px !important;
+  height: 58px !important;
+  margin-right: 14px !important;
+  background-color: #656AE5 !important;
+  opacity: 0.97 !important;
+  box-shadow: 2px 6px 17px rgba(255, 255, 255, 0.27) !important;
+  border-radius: 8px !important;
+  text-transform: none !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 27px !important;
+  letter-spacing: 0.06em !important;
+  color: #FCFCFC !important;
+}
+
+.buttonSecond {
+  margin-left: 25px !important;
+  width: 237px !important;
+  height: 62px !important;
+  background: #FEFEFE !important;
+  opacity: 0.97 !important;
+  box-shadow: 2px 6px 17px rgba(255, 255, 255, 0.27) !important;
+  border-radius: 8px !important;
+  text-transform: none !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+  letter-spacing: 0.06em !important;
+  color: #656AE5 !important;
+}
+
+.bottomBlock {
+  max-width: 337px;
+  padding: 27px 27px 90px;
+  max-height: 390px;
+  background: #132348;
+  border-radius: 11px;
+}
+
+.bottomBlockLight{
+  max-width: 337px;
+  padding: 37px 27px 90px;
+  max-height: 390px;
+  background-image: linear-gradient(to right, #132348, #2e3679, #5946aa, #9151d6, #d354fd);
+  border-radius: 11px;
+}
+
+.bottomDiv {
+  position: relative !important;
+  top: 100px !important;
+  padding: 25px 55px 90px !important;
+  max-width: 1200px !important;
+  height: 160px !important;
+  background-color: #FFFFFF !important;
+  box-shadow: 0px 2px 42px rgba(9, 22, 54, 0.22) !important;
+  border-radius: 6px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.bottomButton {
+  margin-top: 10px !important;
+  font-weight: 500 !important;
+  padding: 15px !important;
+  background: #656AE5 !important;
+  border-radius: 8px !important;
+  font-size: 18px !important;
+  line-height: 27px !important;
+  color: #FCFCFC !important;
+  text-transform: none !important;
+}
+
+@media (max-width: 1200px) {
+  .topImage {
+    display: none !important;
+    position: absolute !important;
+  }
+  .homeTopCont {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 20px !important;
+    padding: 10px !important;
+  }
+  .containerTopHome {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .textTopHome {
+    text-align: center !important;
+  }
+  .textTopHomeH {
+    text-align: center !important;
+    font-size: 40px !important;
+    line-height: 52px !important;
+  }
+  .homeMargin {
+    padding: 10px !important;
+    margin-top: 20px !important;
+  }
+  .marginImage {
+    display: none !important;
+    position: absolute !important;
+  }
+
+  .marginTextGrid {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+  }
+
+  .homeBottom {
+    width: calc(100vw);
+    background-color: #091636;
+    color: #FCFCFC !important;
+    margin-top: 40px;
+    margin-bottom: 120px !important;
+  }
+
+  .bottomDiv {
+    padding: 25px 55px 90px !important;
+    max-width: 1200px !important;
+    height: auto !important;
+    border-bottom: 0px !important;
+    background-color: #FFFFFF !important;
+    box-shadow: 0px 2px 42px rgba(9, 22, 54, 0.22) !important;
+    border-radius: 6px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+
+  .homeBottomH {
+    font-size: 30px !important;
+    line-height: 45px !important;
+    text-align: center !important;
+  }
+  .homeBottomText {
+    font-size: 12px !important;
+    line-height: 18px !important;
+    text-align: center !important;
+    max-width: 100% !important;
+    margin: 0px 10px !important;
+  }
+  .homeBlocks {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .bottomBlock {
+    //margin-top: 20px !important;
+    margin: 20px 8px 8px 8px !important;
+  }
+  .bottomBlockLight {
+    //margin-top: 20px !important;
+    margin: 20px 8px 8px 8px !important;
+  }
+  .bottomDiv {
+    padding: 25px 25px 90px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .buttonFirst {
+    margin-top: 20px !important;
+  }
+  .buttonGrid {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
